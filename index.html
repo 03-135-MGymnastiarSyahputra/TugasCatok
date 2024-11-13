@@ -4,59 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biodata Diri</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <center><h1>Biodata Diri</h1>
-    <img src="foto/foto.png" alt="gyar" width="150px" height="150px">
-    </center>
-    <p style="text-align: justify;">Hello! Saya M. Gymnastiar Syahputra, Mahasiswa Program Studi Teknik Informatika dari Institut Teknologi Sumatera. Saya berasal dari Sekayu, Sumatera Selatan. Saya memiliki minat di bidang Pengembangan Web. Saya alumni SMKN 3 Sekayu Jurusan Rekayasa Perangkat Lunak, disana saya mempelajari ilmu-ilmu tentang dasar-dasar pemrograman dan jaringan komputer. Saya mengikuti Praktik Kerja Lapangan (PKL) di Dinas Perpustakaan dan Kearsipan MUBA, disana saya mempelajari tentang alur pembuatan website profil dinas tersebut.  </p>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#biodata">Biodata</a>
+        <a href="#pendidikan">Pendidikan</a>
+        <a href="#pengalaman">Pengalaman</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
 
-    <center>
-        <h3>Data Diri</h3>
-    <table border="1">
-        <tr>
-            <th>Nama</th>
-            <td>M. Gymnastiar Syahputra</td>
-        </tr>
-        <tr>
-            <th>NIM</th>
-            <td>123140135</td>
-        </tr>
-        <tr>
-            <th>Prodi</th>
-            <td>Teknik Informatika</td>
-        </tr>
-        <tr>
-            <th>Tanggal Lahir</th>
-            <td>05 November 2005</td>
-        </tr>
-        <tr>
-            <th>Alamat Asal</th>
-            <td>Sumsel, Sekayu </td>
-        </tr>
-        <tr>
-            <th>Alamat Domisili</th>
-            <td>Belwis</td>
-        </tr>
-    </table>
-    </center>
-    
-    <!-- ini komentar -->
-    <h3> Riwayat Pendidikan</h3>
-    <ul>
-        <li>SMPN 1 Sekayu | 2017 - 2020</li>
-        <li>SMKN 3 Sekayu | 2020 - 2023</li>
-        <li>Institut Teknologi Sumatera | 2023 - Sekarang</li>
-    </ul>
+    <div class="container">    
+            <img src="foto/foto1.jpg">
+            <div class="about" id="about">
+                <h1>About Me</h1>
+                <p>
+                    Hello! Saya M. Gymnastiar Syahputra, Mahasiswa Program Studi Teknik Informatika dari Institut Teknologi Sumatera. Saya berasal dari Sekayu, Sumatera Selatan. Saya memiliki minat di bidang Pengembangan Web. Saya alumni SMKN 3 Sekayu Jurusan Rekayasa Perangkat Lunak, disana saya mempelajari ilmu-ilmu tentang dasar-dasar pemrograman dan jaringan komputer. Saya mengikuti Praktik Kerja Lapangan (PKL) di Dinas Perpustakaan dan Kearsipan MUBA, disana saya mempelajari tentang alur pembuatan website profil dinas tersebut.        
+                </p>
+                    <div class="biodata" id="biodata">
+                    <h2>Biodata Diri</h2>
+                    <table id="table">
+                        <tr>
+                            <th>Nama</th>
+                            <td>M. Gymnastiar Syahputra</td>
+                        </tr>
+                        <tr>
+                            <th>Tanggal Lahir</th>
+                            <td>05 November 2005</td>
+                        </tr>
+                            <th>Alamat</th>
+                            <td>Jl. Lapas Narkoba</td>
+                        </tr>
+                            <th>Email</th>
+                            <td>gymnasjr@gmail.com</td>
+                        </tr>
+                    </table>
+                        <!-- <p>Nama: M. Gymnastiar Syahputra</p>
+                        <p>Tanggal Lahir: 5 November 2005</p>
+                        <p>Alamat: Jl Lapas Narkoba</p>
+                        <p>Email: gymnasjr@gmail.com</p> -->
+                        <div class="pendidikan" id="pendidikan">
+                            <h2> Riwayat Pendidikan</h2>
+                            <ul>
+                            <li>SMPN 1 Sekayu | 2017 - 2020</li>
+                            <li>SMKN 3 Sekayu | 2020 - 2023</li>
+                            <li>Institut Teknologi Sumatera | 2023 - Sekarang</li>
+                            </ul>
+                            <div class="pengalaman" id="pengalaman">
+                                <h2 >Pengalaman</h2>
+                                <ul>
+                                <li>Internship at DISPUSIP MUBA</li>
+                                </ul>
+                                <div class="kontak" id="kontak">
+                                    <h2>Kontak</h2>
+                                    <i class="fa fa-instagram" style="font-size:24px"></i>
+                                    <a href="https://www.instagram.com/nastptra/" target="_blank">Instagram</a>
+                                    <i class="fa fa-linkedin" style="font-size:24px"></i>
+                                    <a href="https://www.linkedin.com/in/m-gymnastiar-syahputra-39680a323/" target="_blank">Linkedin</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
 
-    <h3>Pengalaman</h3>
-    <ul>
-        <li>Internship at DISPUSIP MUBA</li>
-    </ul>
+         
 
-    <h3>Kontak</h3>
-    <a href="https://www.instagram.com/nastptra/" target="_blank">Instagram</a>
-    <a href="https://www.linkedin.com/in/m-gymnastiar-syahputra-39680a323/" target="_blank">Linkedin</a>
-   
+
+
+
+
+
+         
+
 </body>
 </html>
